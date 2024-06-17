@@ -1,0 +1,63 @@
+{
+  "replaces": {},
+  "reflections": {
+    "am":     "are",
+    "was":    "were",
+    "i":      "you",
+    "i'd":    "you would",
+    "i've":   "you have",
+    "i'll":   "you will",
+    "my":     "your",
+    "are":    "am",
+    "you've": "I have",
+    "you'll": "I will",
+    "your":   "my",
+    "yours":  "mine",
+    "you":    "me",
+    "me":     "you"
+  },
+  "patterns": [
+    ["^$"],
+    ["hello|hi"],
+    ["quit"],
+
+    ["i need (.*)"],
+
+    ["explain ph"],
+    ["explain kh"],
+    ["explain gh"],
+    ["explain tds"],
+    ["explain temperature"],
+    ["explain calcium"],
+    ["explain magnesium"],
+
+    ["explain the relation of magnesium and calcium",
+    "explain the relation of calcium and magnesium"],
+    ["explain the relation of calcium and kh",
+    "explain the relation of kh and calcium"],
+    ["explain the relation of ph and kh",
+    "explain the relation of kh and ph"],
+
+    ["(.*)[?]"],
+    ["(.*)"]
+  ],
+  "answers": [
+    ["i can't answer empty questions..."],
+    ["hi! what do you need from this humble chatbot? :D"],
+    ["Ok, see you soon, bye! :D",
+      "Thank you for talking with me"],
+    ["what?"],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    [""],
+    ["Sorry, i can't find a pattern to that question on my database"],
+    ["huuuum... can you be more specific?"]
+  ]
+}
