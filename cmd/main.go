@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/NalbertLeal/eliza-algorithm-go/pkg"
+	"github.com/NalbertLeal/chatbot-regexp/pkg"
 )
 
 var (
