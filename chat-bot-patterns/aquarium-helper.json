@@ -23,13 +23,6 @@
 
     ["i need (.*)"],
 
-    ["[what|explain|how](.*) [relation|between](.*) magnesium(.*) calcium",
-    "[what|explain|how](.*) [relation|between](.*) calcium(.*) magnesium"],
-    ["[what|explain|how](.*) [relation|between](.*) calcium(.*) kh",
-    "[what|explain|how](.*) [relation|between](.*) kh(.*) calcium"],
-    ["[what|explain|how](.*) [relation|between](.*) ph(.*) kh",
-    "[what|explain|how](.*) [relation|between](.*) kh(.*) ph"],
-
     ["[what|explain|how](.*) (PH|ph|Ph)(.*)"],
     ["[what|explain|how](.*) (kh|KH|kh)(.*)"],
     ["[what|explain|how](.*) (gh|GH|Gh)(.*)"],
@@ -37,6 +30,13 @@
     ["[what|explain|how](.*) temperature(.*)"],
     ["[what|explain|how](.*) (calcium|Ca|CA|ca)(.*)"],
     ["[what|explain|how](.*) (magnesium|Mg|MG|mg)(.*)"],
+
+    ["[what|explain|how](.*) [relation|between](.*) magnesium(.*) calcium",
+    "[what|explain|how](.*) [relation|between](.*) calcium(.*) magnesium"],
+    ["[what|explain|how](.*) [relation|between](.*) calcium(.*) kh",
+    "[what|explain|how](.*) [relation|between](.*) kh(.*) calcium"],
+    ["[what|explain|how](.*) [relation|between](.*) ph(.*) kh",
+    "[what|explain|how](.*) [relation|between](.*) kh(.*) ph"],
 
     ["(.*)[?]"],
     ["(.*)"]
