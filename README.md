@@ -25,7 +25,7 @@ git clone https://github.com/NalbertLeal/chatbot-regexp
 To start a conversation you need a json file with all the chatbot patterns of question and answers. The folder "chat-bot-patterns" already have some configurations prepared. For example, if you want to talk with the chatbot doctor:
 
 ```bash
-go run .\cmd\main.go -file .\chat-bot-patterns\aquarium-helper.json
+go run .\cmd\main.go -file .\chat-bot-patterns\doctor.json
 ```
 
 The parameter **-file** is the path to the patterns file.
